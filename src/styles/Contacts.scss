@@ -1,0 +1,73 @@
+@import './_base.scss';
+
+#contacts_field{
+	background-color: #fff;
+	padding-top: 20px;
+	margin-top: 4rem;
+	padding-bottom: 40px;
+	#contacts_cont{
+		width: 55%;
+		margin: 0 auto;
+		h1{
+			text-align: center;
+			color: #334894;
+			font-weight: 600;
+		}
+		hr{
+			@include hr_theme($width: 40%);
+		}
+		#main_label{
+			text-align: center;
+			float: left;
+			margin-right: 140px; 
+			color: #334894;
+			line-height: 23px;
+			h3:after{
+				content:"\a";
+    			white-space: pre;
+			}
+			span:after{
+				content:"\a";
+    			white-space: pre;
+			}
+			a{
+				color: #334894;
+			}
+		}
+		#contact_input{
+			display: flex;
+			flex-direction: column;
+			padding: 20px 30px;
+			background-color: #334894;
+			width: 30%;
+			#submit{
+				border: #FFF 2px solid;
+				border-radius: 25px;
+				padding: 10px;
+				font-size: 17px;
+				width: 54%;
+				background-color: #334894;
+				color: #fff;
+				margin: 26px 0;
+			}
+			label{
+				color: #fff;
+			}
+			input:not(#submit), textarea{
+				font-size: 18px;
+				padding: 10px;
+				border: none;
+				border-radius: 8px;
+				&:focus{
+					outline: none;
+				}
+			}
+			textarea{
+				height: 90px;
+			}
+			&>*{
+				margin-top: 8px;
+			}
+		}
+	}
+}

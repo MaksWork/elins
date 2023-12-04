@@ -1,0 +1,7 @@
+@mixin hr_theme($width: 40%) {
+    width: $width;
+    margin: 1rem auto;
+    height: 0.5px;
+    background-color: #202e61;
+    border-color: #202e61;
+}

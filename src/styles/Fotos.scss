@@ -1,0 +1,34 @@
+@import './_base.scss';
+
+#fotos_field{
+	width: 100%;
+	#fotos_cont{
+		background-color: rgba($color: #fff, $alpha: .8);
+		
+		width: 50%;
+		margin: 6rem auto;
+		padding: 40px;
+		text-align: center;
+		#fotos_grid{
+			display: grid;
+			grid-template-columns: auto auto auto auto auto auto;
+			
+			justify-items: center;
+		}
+		label{
+			color: #202E61;
+			font-size: 34px;
+			font-weight: 600;
+			
+		}
+		img{
+			width: 140px;
+			height: 160px;
+			margin: 8px 0 8px;
+			object-fit: cover;
+		}
+		hr{
+			@include hr_theme($width: 40%);
+		}
+	}
+}

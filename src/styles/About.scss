@@ -1,0 +1,43 @@
+@import './_base.scss';
+
+#about_field{
+	color: #202E61;
+	background-color: #fff;
+	padding: 3rem 0;
+	margin-top: 20rem;
+	#about_cont{
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+		hr{
+			@include hr_theme($width: 70%);
+		}
+	}
+	.label_cont{
+		display: flex;
+		flex-direction: column;
+		label{
+			margin: 3px 0;
+		}
+	}
+	#do_list_cont{
+		display: grid;
+		grid-template-columns: auto auto;
+		margin: 20px 0;
+		.do_list_el{
+			padding: 10px;
+			margin: 10px 0;
+			text-align: left;
+			img{
+				margin: 5px 6px;
+				width: 23px;
+				color: #384C96;
+			}
+			label{
+				position: relative;
+				top: -25%;
+				transform: translateY(50%);
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+#navbar_cont{
+	background-color: #fff;
+	padding: 4.2rem 4rem;
+
+}
+.sticky{
+	width: 100%;
+	position: fixed;
+	background-color: rgba($color: #fff, $alpha: 0.75);
+	top: 0;
+	left: 0;
+}
+ul {
+	width: 50%;
+	margin: 0 auto;
+	list-style-type: none;
+	overflow: hidden;
+	li {
+		float: left;
+		
+		img{
+			height: 6.5rem;
+			margin-top: 20px;
+		}
+		input{
+			border: none;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 20px;
+			color: #384C96;
+			text-transform: uppercase;
+			background-color: rgba($color: #fff, $alpha: 0);
+			margin-right: 2rem;
+			margin-top: 4rem;
+			&:hover{
+				text-decoration: underline;
+				cursor: pointer;
+			}
+		}
+	}
+	#logo_navbar{
+		margin-right: 9rem;
+	}
+	#dropdown{
+		margin-left: 6rem;
+		#dropbtn{
+			font-size: 15px;
+			border: none;
+			border-radius: 25px;
+			padding: 16px 15px;
+			margin-top: 3rem;
+			.fa-solid {
+				margin-left: 50px;
+			}
+			background-color: #fff;
+			box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+		}
+		.drop_content{
+			display: none;
+			margin-top: 15px;
+		}
+	}
+}
+  
