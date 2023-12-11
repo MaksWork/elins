@@ -1,0 +1,61 @@
+{   
+    "navbar" : {
+        "manufacturing": "Ražošana",
+        "production": "Produkcija",
+        "contacts": "Kontakti"
+    },
+    "manufacturing":{
+        "label":"SIA 'Eliņš' – metāla un plastmasas izstrādājumi",
+        "titled":{
+            "t_1" : "Uzņēmums darbojas kopš 2005. gada.", 
+            "t_2" : "Nodarbojamies ar metāla, plastmasas, kaprona un plastisko masu izstrādājumu ražošanu uz pasūtījuma",
+            "t_3" : "un to vairumtirdzniecību konkrētam pasūtītājam."
+        },
+        "do_list": {
+            "d_1" : "Kompresijas, spriegojuma un vērpes atsperes", 
+            "d_2" : "Izolatori no termoplastmasas, keramikas, kaprona un gumijas",
+            "d_3" : "Elektro sildelementi",
+            "d_4" : "Izstrādājumi no plastmasas un kaprona",
+            "d_5" : "Jebkādas konfigurācijas gumijas blīvējuma profili",
+            "d_6" : "Plastisko masu izstrādājumu izgatavošana, tirdzniecība"
+        }
+    },
+    "production":{
+        "label": "Metāla un plastmasas izstrādājumu produkcija"
+    },
+    "contacts":{
+        "label": "Metāla un plastmasas izstrādājumi, kontakti un rekvizīti",
+        "sia": "SIA 'Eliņš'",
+        "phone": "Tālrunis",
+        "mail": "E-pasts",
+        "working_hours": {
+            "title": "Darba laiks",
+            "weekdays": "Darbdienās",
+            "weekend": "Sestdiena, svētdiena: brīvs"
+        },
+        "adress": {
+            "title": "Adrese",
+            "adress": "Strazdumuižas 80, Rīga, LV-1024"
+        },
+        "props":{
+            "title": "Rekvizīti",
+            "reg_num": "Reģ. nr.",
+            "legal_adrs": "Juridiskā adrese",
+            "bank": {
+                "title": "Banka",
+                "account_num": "Konta nr."
+            },
+            "input":{
+                "name":"Jūsu vārds / uzņēmuma nosaukums",
+                "mail": "E-pasts**",
+                "phone": "Telefons*",
+                "your_msg": "Jūsu ziņi*",
+                "captcha_hl": "lv",
+                "send": "Sūtīt ziņu"
+            }
+        }
+    },
+    "footbar": {
+        "politics": "Privātuma politika"
+    }
+}

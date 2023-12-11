@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.69251962.css",
+    "main.js": "/static/js/main.784fe48a.js",
+    "static/media/atsperes_2.png": "/static/media/atsperes_2.ac2ad1aeff91a1e68ed4.png",
+    "static/media/sild_elementi.png": "/static/media/sild_elementi.f7df0f5cf32170fdde81.png",
+    "static/media/elektro_elementi.png": "/static/media/elektro_elementi.361bfa0f00b138438994.png",
+    "static/media/stiepes.png": "/static/media/stiepes.a79fd7fd98064b4aee29.png",
+    "static/media/gumijas_amortizatori.png": "/static/media/gumijas_amortizatori.d4e2796f1d7f8b763705.png",
+    "static/media/keramiskie_izolatori.png": "/static/media/keramiskie_izolatori.47a21dd925abdfbcd429.png",
+    "static/media/atsperes.png": "/static/media/atsperes.b90b9ea810bb8b0315ce.png",
+    "static/media/termoplasmasas_izolatori.png": "/static/media/termoplasmasas_izolatori.c0f1ebe3e5a040489ac1.png",
+    "static/media/gumijas_profili.png": "/static/media/gumijas_profili.87f60b6871f89d403a9e.png",
+    "static/media/lielas_atsperes.png": "/static/media/lielas_atsperes.c21e8db853b781b6f26f.png",
+    "static/media/gumijas_formas.png": "/static/media/gumijas_formas.937e439e59c7f2ed5367.png",
+    "static/media/plastmasas_izstradajumi.png": "/static/media/plastmasas_izstradajumi.bc9020b13c43f31d5fac.png",
+    "static/media/elins_logo2.png": "/static/media/elins_logo2.db5d11ae2952aba26745.png",
+    "static/media/logo.png": "/static/media/logo.01b87f73e4d10759a783.png",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.69251962.css.map": "/static/css/main.69251962.css.map",
+    "main.784fe48a.js.map": "/static/js/main.784fe48a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69251962.css",
+    "static/js/main.784fe48a.js"
+  ]
+}
